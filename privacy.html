@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Five Widget</title>
+<meta name="description" content="What the Five Widget app collects, what it does with it, and who else sees it.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --rule: #e3e3e6;
+    --accent: #6a1a6c;
+    --panel: #fffbe0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131315;
+      --fg: #ececee;
+      --muted: #9d9da3;
+      --rule: #2c2c30;
+      --accent: #ffe708;
+      --panel: #1f1c12;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.2rem; margin: 2.75rem 0 .75rem; letter-spacing: -.01em;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { margin: 0 0 .9rem; }
+  ul, ol { padding-left: 1.25rem; margin: 0 0 1rem; }
+  li { margin-bottom: .55rem; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+  .updated { color: var(--muted); font-size: .9rem; margin-bottom: 2.5rem; }
+  .lede { font-size: 1.05rem; }
+  .callout {
+    background: var(--panel);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.1rem;
+    margin: 0 0 1.1rem;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Five Widget · Last updated 19 November 2026</p>
+
+  <p class="lede">Five Widget (“Five”) is a photo-sharing app for close
+  friends: the photos you send appear in the Five widget on your friends’ home
+  screens, and each photo has its own chat. This page explains what the app
+  collects, what it does with it, and who else sees it. Five is operated by
+  Cheung Pak Wai, and “we” and “us” mean us.</p>
+
+  <h2>What we collect</h2>
+
+  <p><strong>Your account.</strong> You sign in with Apple on iPhone or with
+  Google on Android. We keep the identifier that Apple or Google gives us, the
+  email address they confirm, and the name they send, if any. Five has no
+  passwords.</p>
+
+  <p><strong>Your profile.</strong> The nickname your friends see, and the
+  first and last name you enter when you sign up.</p>
+
+  <p><strong>Your friends.</strong> Your friends, your friend requests, the
+  groups you are in and their names, and the invite links you create.</p>
+
+  <p><strong>Photos you send.</strong> Each photo you send, a small preview of
+  it, the caption you add, when it was taken, who it was sent to (one friend, a
+  group, or all your friends) and who has seen it. Before a photo leaves your
+  phone, the app saves it again as a new image, which drops its location and
+  other camera details.</p>
+
+  <p><strong>Chats under photos.</strong> The messages, replies and emoji
+  reactions you send under a photo, and when they were sent.</p>
+
+  <p><strong>Your purchases.</strong> A record of the credit you buy and your
+  remaining balance. Purchases themselves are handled by Apple or Google; we
+  never see your card details.</p>
+
+  <p><strong>Your devices.</strong> A notification token for each device, so
+  we can tell your phone and your widget that a new photo has arrived.</p>
+
+  <h2>Finding friends from your contacts</h2>
+
+  <p>If you allow it, Five checks your contacts to find friends who already use
+  it. The phone numbers and email addresses in your contacts are scrambled on
+  your phone with a one-way hash (SHA-256) before they are sent, so we receive
+  hashes, not the numbers or addresses themselves, and never names or any other
+  contact details. We compare them with the hashes of Five users’ email
+  addresses and phone numbers, and we do not keep the list.</p>
+
+  <p>One exception: if a contact card holds the email of someone on Five and a
+  single phone number, we keep the hash of that number with their account, so
+  that friends who know only their number can find them too. A phone number
+  hash may also be added to your account when you join through an invite link
+  that a friend made for your number. We never learn the number itself.</p>
+
+  <p>You can turn off contacts access at any time in your phone’s settings.</p>
+
+  <h2>What we do with it</h2>
+
+  <ul>
+    <li>Deliver your photos to the friends and groups you choose, and show
+    theirs in your widget and in the app.</li>
+    <li>Keep the chat under each photo.</li>
+    <li>Send notifications about new photos and messages.</li>
+    <li>Turn photos into Toons when you ask for it.</li>
+    <li>Process purchases and track your credit.</li>
+  </ul>
+
+  <h2>Who else sees it</h2>
+
+  <div class="callout">
+    <p><strong>A photo you turn into a Toon is sent to an AI provider.</strong>
+    That is how Toons work: the photo is sent to OpenRouter
+    (<a href="https://openrouter.ai">openrouter.ai</a>), which passes it to the
+    image model you picked in Settings, made by Google or OpenAI, and returns
+    the illustration. We store only the illustration, not the photo you took.
+    Photos you send without Toons are not sent to any AI service.</p>
+  </div>
+
+  <ul>
+    <li><strong>Your friends</strong> see your nickname, the photos you send
+    them and the messages you write under those photos.</li>
+    <li><strong>Apple</strong>: Sign in with Apple, notifications on iPhone,
+    and in-app purchases.</li>
+    <li><strong>Google</strong>: Google Sign-In, notifications on Android
+    through Firebase Cloud Messaging, and Google Play purchases.</li>
+    <li><strong>Amazon Web Services</strong>: our servers and the storage for
+    the photos you send.</li>
+  </ul>
+
+  <p>We do not sell your personal information, and we do not share it with
+  anyone for advertising.</p>
+
+  <h2>What stays on your phone</h2>
+
+  <ul>
+    <li><strong>Your photo diary.</strong> The calendar of your photos, and the
+    feeds you have seen, are kept on your phone, so they stay after the photos
+    are deleted from our servers.</li>
+    <li><strong>Month recaps.</strong> A recap image is made on your phone and
+    goes only wherever you choose to share it.</li>
+    <li><strong>Your emoji rows</strong> are settings on your phone.</li>
+  </ul>
+
+  <h2>What we don’t do</h2>
+
+  <p>Five contains no analytics SDK, no advertising SDK and no third-party
+  trackers. We do not profile you for advertising, and we do not sell data to
+  anyone.</p>
+
+  <h2>Keeping and deleting your data</h2>
+
+  <p>Photos you send, their previews, and the chats and reactions under them
+  are deleted from our servers 90 days after the photo is sent. Everything else
+  is kept for as long as your account exists.</p>
+
+  <p>You can delete your account from inside the app at any time; see
+  <a href="/delete-account.html">Delete your account</a>. It deletes your
+  account, your photos and their files, your messages, your friends and your
+  invite links straight away. The only thing kept is the record of your
+  purchases, without your name or email, which we need for accounting.</p>
+
+  <h2>Your choices</h2>
+
+  <ul>
+    <li>Camera, contacts and notification permissions can be turned off at any
+    time in your phone’s settings.</li>
+    <li>You can change your nickname and name in the app.</li>
+    <li>You can unfriend someone or leave a group in the app.</li>
+    <li>You can ask us for a copy of your data, or ask us to correct or delete
+    it, by emailing the address below.</li>
+  </ul>
+
+  <h2>Security</h2>
+
+  <p>Traffic between the app and our servers is encrypted in transit. Photos
+  are served only to the people they were sent to, through our own servers.
+  No service can promise perfect security, and we would rather say so than
+  imply otherwise.</p>
+
+  <h2>Children</h2>
+
+  <p>Five is not intended for anyone under 16, and we do not knowingly collect
+  personal information from children. If you believe a child has created an
+  account, email us and we will remove it.</p>
+
+  <h2>Changes to this policy</h2>
+
+  <p>If we change how the app handles your information, we will update this
+  page and change the date at the top.</p>
+
+  <h2>Contact</h2>
+
+  <p>Questions about privacy, or requests about your data:
+  <a href="mailto:hello@fivewidget.com">hello@fivewidget.com</a>.</p>
+
+  <footer>Five Widget ·
+  <a href="/">fivewidget.com</a> · <a href="/terms.html">Terms of Use</a> ·
+  <a href="/delete-account.html">Delete Account</a></footer>
+
+</main>
+</body>
+</html>

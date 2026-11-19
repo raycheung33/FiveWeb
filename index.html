@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Five Widget</title>
+<meta name="description" content="Five puts your photos on your best friends' home screens. Send AI-styled photos to their widget, chat under every photo, and keep a private photo diary on your phone.">
+<style>
+  /* Same palette and font stack as the other pages, so they read as one site.
+     The app's own colours: its yellow behind, its purple on top. */
+  :root {
+    --bg: #ffe708;
+    --fg: #370738;
+    --muted: #5e3a5f;
+    --rule: rgba(55, 7, 56, .2);
+    --accent: #370738;
+    --on-accent: #ffe708;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1d0a1e;
+      --fg: #fff6b8;
+      --muted: #d6c98a;
+      --rule: #3d2a3e;
+      --accent: #ffe708;
+      --on-accent: #370738;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 4rem 1.25rem 3rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  h1 { font-size: 2.5rem; line-height: 1.2; margin: 0 0 1.5rem; letter-spacing: -.02em; text-align: center; font-weight: 800; }
+  h2 {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    letter-spacing: .02em;
+    margin: 2.75rem 0 .75rem;
+  }
+  p { margin: 0 0 1rem; }
+  .lead { font-size: 1.15rem; color: var(--muted); margin-bottom: 2.5rem; }
+  a { color: var(--accent); }
+  .cta { margin-top: 3.5rem; text-align: center; }
+  .btn {
+    display: block;
+    background: var(--accent);
+    color: var(--on-accent);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: .85rem 1.5rem;
+    min-height: 44px;
+  }
+  .btn:hover { opacity: .9; }
+  .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .fallback { color: var(--muted); font-size: .9rem; margin: 1rem 0 0; }
+  footer {
+    margin-top: 4rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Five Widget</h1>
+
+  <p class="lead">Five puts your photos right on your best friends’ home
+  screens. No feeds to scroll and no followers, just the people you’re closest
+  to, seeing your day as it happens.</p>
+
+  <h2>Your photos, with style, on their home screen</h2>
+
+  <p>Snap a photo and it shows up in the Five widget on your friends’ phones.
+  Send it as it is, or turn it into a hand-drawn illustration with Toons, an AI
+  style that makes an everyday moment look like a frame from an animated
+  film.</p>
+
+  <h2>Tap the widget, start chatting</h2>
+
+  <p>Tap a photo on your home screen to reply. Every photo gets its own chat,
+  so conversations stay with the moment they’re about. Send a message, an emoji,
+  or a reply to the whole group.</p>
+
+  <h2>Every day, kept on your phone</h2>
+
+  <p>Every photo you take is kept on your phone in a calendar, one day at a
+  time, with your friends’ favourite emoji stuck on like stickers. Look back at
+  any day, or share a recap of your whole month as one image.</p>
+
+  <p>Five is on iPhone and Android.</p>
+
+  <div class="cta">
+    <a class="btn" href="mailto:hello@fivewidget.com?subject=Five%20feedback">Send feedback</a>
+
+    <p class="fallback">Or write to
+    <a href="mailto:hello@fivewidget.com">hello@fivewidget.com</a></p>
+  </div>
+
+  <footer><a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Use</a> · <a href="/delete-account.html">Delete Account</a></footer>
+
+</main>
+</body>
+</html>
